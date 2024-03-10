@@ -99,6 +99,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/api-frontend",
+            "netlifyToken": "rfonseca985@gmail.com",
+            "siteId": "api-crud-frontend"
+          }
         }
       }
     }
