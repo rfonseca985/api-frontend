@@ -22,3 +22,5 @@ Em resumo, este projeto demonstra uma implementação eficaz de uma aplicação 
 
 - Frontend
 - Backend
+
+
