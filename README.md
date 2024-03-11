@@ -10,15 +10,17 @@ A aplicação permite aos usuários criar, ler, atualizar e deletar informaçõe
 
 A API backend é robusta e eficiente, lidando com todas as operações de banco de dados necessárias para o gerenciamento de produtos. Ela segue os princípios do design RESTful, o que facilita a comunicação entre o frontend e o backend.
 
+Além disso, o backend utiliza Docker para garantir que o ambiente de execução seja consistente em todas as plataformas. Ele também usa um banco de dados PostgreSQL para armazenar os dados dos produtos.
+
 Em resumo, este projeto demonstra uma implementação eficaz de uma aplicação CRUD de produtos usando algumas das tecnologias mais recentes e populares no desenvolvimento web.
 
 ## Tecnologias Utilizadas
 
 - Angular 17
 - Java 17
-- Spring Boot 3](https://projeto-backend-62pg.onrender.com
-
-)
+- Spring Boot 3
+- Docker
+- PostgreSQL
 
 ## Links
 
