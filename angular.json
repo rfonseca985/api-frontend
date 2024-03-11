@@ -38,6 +38,14 @@
               "/home/rf0n53c485/Projetos/projeto-loja-frontend/api-frontend/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
+            "optimization": {
+              "scripts": true,
+              "styles": {
+                "minify": true,
+                "inlineCritical": false
+              },
+              "fonts": true
+            },
             "scripts": []
           },
           "configurations": {
@@ -45,7 +53,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
+                  "maximumWarning": "550kb",
                   "maximumError": "1mb"
                 },
                 {
@@ -98,6 +106,14 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/api-frontend",
+            "netlifyToken": "rfonseca985@gmail.com",
+            "siteId": "api-crud-frontend"
           }
         }
       }
