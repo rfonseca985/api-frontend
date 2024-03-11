@@ -20,7 +20,7 @@ Em resumo, este projeto demonstra uma implementação eficaz de uma aplicação 
 
 ## Links
 
-- Frontend
-- Backend
+- [Frontend](https://api-crud-frontend.netlify.app/)
+- [Backend](https://projeto-backend-62pg.onrender.com)
 
 
