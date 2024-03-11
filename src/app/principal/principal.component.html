@@ -1,12 +1,12 @@
 <!-- Formulário para adicionar ou alterar um produto -->
 <form>
   <!-- Imagem do produto -->
-  <img src="../../assets/produto.png"/>
+  <img src="../../assets/produto.png" alt=""/>
 
   <!-- Campos para inserir detalhes do produto -->
   <input type="text" placeholder="Nome" class="form-control" name="nome" [(ngModel)]="produto.nome">
   <input type="number" placeholder="Quantidade" class="form-control" name="quantidade" [(ngModel)]="produto.quantidade">
-  <input type="number" placeholder="Valor" class="form-control" name="valor" [(ngModel)]="produto.valor">
+  <input type="text" placeholder="Valor" class="form-control" name="valor" [(ngModel)]="produto.valor" pattern="^[0-9]*\.?[0-9]*$">
   <input type="text" placeholder="Observação" class="form-control" name="observação" [(ngModel)]="produto.observacao">
 
   <!-- Botões para adicionar, alterar, remover ou cancelar a operação -->

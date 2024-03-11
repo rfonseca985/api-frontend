@@ -10,7 +10,7 @@ export class Produto{
   quantidade:number= 0;
 
   // O valor do produto.
-  valor:number = 0;
+  valor:string = '';
 
   // Observações adicionais sobre o produto.
   observacao:string = '';
