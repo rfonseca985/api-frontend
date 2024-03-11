@@ -1,0 +1,22 @@
+/* Define o estilo para as imagens */
+img{
+  width: 250px; /* Define a largura da imagem para 250px */
+  margin-bottom: 30px; /* Adiciona uma margem inferior de 30px para a imagem */
+}
+
+/* Define o estilo para os formulários */
+form{
+  width: 500px; /* Define a largura do formulário para 500px */
+  margin: 30px auto; /* Centraliza o formulário horizontalmente e adiciona uma margem de 30px na parte superior e inferior */
+  text-align: center; /* Centraliza o texto dentro do formulário */
+}
+
+/* Define o estilo para os campos de entrada */
+input{
+  margin-bottom: 10px; /* Adiciona uma margem inferior de 10px para os campos de entrada */
+}
+
+/* Define o estilo para os botões */
+input[type="button"]{
+  margin-right: 10px; /* Adiciona uma margem à direita de 10px para os botões */
+}

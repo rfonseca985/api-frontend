@@ -1,0 +1,47 @@
+<!-- Formulário para adicionar ou alterar um produto -->
+<form>
+  <!-- Imagem do produto -->
+  <img src="../../assets/produto.png" alt=""/>
+
+  <!-- Campos para inserir detalhes do produto -->
+  <input type="text" placeholder="Nome" class="form-control" name="nome" [(ngModel)]="produto.nome">
+  <input type="number" placeholder="Quantidade" class="form-control" name="quantidade" [(ngModel)]="produto.quantidade">
+  <input type="text" placeholder="Valor" class="form-control" name="valor" [(ngModel)]="produto.valor" pattern="^[0-9]*\.?[0-9]*$">
+  <input type="text" placeholder="Observação" class="form-control" name="observação" [(ngModel)]="produto.observacao">
+
+  <!-- Botões para adicionar, alterar, remover ou cancelar a operação -->
+  <input type="button" value="Adicionar" *ngIf="btnCadastro" class="btn btn-primary" (click)="adicionar()">
+  <input type="button" value="Alterar" *ngIf="!btnCadastro" class="btn btn-warning" (click)="alterar()">
+  <input type="button" value="Remover" *ngIf="!btnCadastro" class="btn btn-danger" (click)="deletar()">
+  <input type="button" value="Cancelar" *ngIf="!btnCadastro" class="btn btn-secondary" (click)="cancelar()">
+</form>
+
+<!-- Tabela para exibir a lista de produtos -->
+<table class="table" *ngIf="tabela">
+  <thead>
+  <tr>
+    <!-- Cabeçalho da tabela -->
+    <th>Id</th>
+    <th>Nome</th>
+    <th>Quantidade</th>
+    <th>Valor</th>
+    <th>Observação</th>
+    <th>Selecionar</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <!-- Loop para exibir cada produto na tabela -->
+  <tr *ngFor="let p of produtos; index as i">
+    <td>{{ p.id }}</td>
+    <td>{{ p.nome }}</td>
+    <td>{{ p.quantidade }}</td>
+    <td>{{ p.valor }}</td>
+    <td>{{ p.observacao }}</td>
+    <!-- Botão para selecionar um produto -->
+    <td>
+      <button class="btn btn-success" (click)="selecionarProduto(i)">Selecionar</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
