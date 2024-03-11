@@ -1,27 +1,24 @@
-# ApiFrontend
+# Projeto CRUD de Produtos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+## Descrição
 
-## Development server
+Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) de produtos desenvolvida com Angular 17. A aplicação está hospedada na URL: `https://api-crud-frontend.netlify.app/`.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A aplicação frontend consome uma API REST que foi desenvolvida usando Java 17 e Spring Boot 3. A API está hospedada na URL: `https://projeto-backend-62pg.onrender.com`.
 
-## Code scaffolding
+A aplicação permite aos usuários criar, ler, atualizar e deletar informações de produtos. A interface do usuário é intuitiva e fácil de usar, proporcionando uma experiência de usuário suave.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+A API backend é robusta e eficiente, lidando com todas as operações de banco de dados necessárias para o gerenciamento de produtos. Ela segue os princípios do design RESTful, o que facilita a comunicação entre o frontend e o backend.
 
-## Build
+Em resumo, este projeto demonstra uma implementação eficaz de uma aplicação CRUD de produtos usando algumas das tecnologias mais recentes e populares no desenvolvimento web.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologias Utilizadas
 
-## Running unit tests
+- Angular 17
+- Java 17
+- Spring Boot 3
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Links
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Frontend
+- Backend
