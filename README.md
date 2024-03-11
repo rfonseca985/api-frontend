@@ -1,4 +1,4 @@
-[# Projeto CRUD de Produtos
+# Projeto CRUD de Produtos
 
 ## Descrição
 
